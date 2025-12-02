@@ -34,3 +34,25 @@ CMakeLists.txt.user*
 .flatpak/
 .flatpak-builder/
 /_build/
+
+# PKGBUILD and makepkg artifacts
+PKGBUILD
+*.pkg.tar.zst
+*.pkg.tar.xz
+*.pkg.tar.gz
+*.pkg.tar.bz2
+*.pkg.tar.lzo
+*.pkg.tar.lrz
+*.pkg.tar.lz4
+*.pkg.tar.Z
+*.pkg.tar
+*.pkg.tar.*.sig
+*.src.tar.gz
+*.src.tar.xz
+*.src.tar.bz2
+*.src.tar
+.SRCINFO
+*.log
+.makepkg.log
+/pkg/
+/src/
